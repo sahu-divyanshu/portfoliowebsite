@@ -2,7 +2,7 @@ import Link from 'next/link'
 import React from 'react'
 import { Spotlight } from './ui/Spotlight'
 import {Button} from './ui/moving-border'
-import dss from '../utils/dss.jpeg'
+import ds from '../utils/ds.jpeg'
 
 import Image from 'next/image'
 import linkedin from "../utils/linkedin.svg"
@@ -21,7 +21,7 @@ export default function HeroSection() {
       />
       <div className='p-4 relative z-10 w-full text-center'>
 
-      <Image className="h-32 w-32 mt-20 object-cover rounded-full m-auto" src={dss} alt="logo image" />
+      <Image className="h-32 w-32 mt-20 object-cover rounded-full m-auto" src={ds} alt="logo image" />
 
         <h1 className='text-2xl md:my-6 my-2'>Hi I&apos;m Divyanshu😎</h1>
         <h1 className=' md:my-6 my-2 text-3xl md:text-6xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400'> Webapps Developer</h1>
