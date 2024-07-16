@@ -25,17 +25,10 @@ export default function Footer() {
                 Home
               </Link>
             </li>
+
             <li>
               <Link
-                href=""
-                className="hover:text-white transition-colors duration-300"
-              >
-                About
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/courses"
+                href="/projects"
                 className="hover:text-white transition-colors duration-300"
               >
                 Projects
@@ -43,7 +36,7 @@ export default function Footer() {
             </li>
             <li>
               <Link
-                href="#"
+                href="contact"
                 className="hover:text-white transition-colors duration-300"
               >
                 Contact

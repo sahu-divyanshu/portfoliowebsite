@@ -55,7 +55,7 @@ export const HoverEffect = ({
               className
             )}
           >
-            <div className="relative z-50 flex flex-wrap justify-center sm:justify-between">
+            <div className="relative z-50 sm:flex flex-wrap justify-center sm:justify-between">
               <CardTitle>{item.title}</CardTitle>
               <CardDescription>{item.description}</CardDescription>
             </div>
