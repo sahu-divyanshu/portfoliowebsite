@@ -11,7 +11,7 @@ export default function Footer() {
         <div>
           <h2 className="text-white text-lg font-semibold mb-4">About Us</h2>
           <p className="mb-4">
-          Hi, I'm Divyanshu Sahu, a passionate web developer with 1 year of experience in building innovative and effective digital solutions. Let&apos;s create something amazing together!
+          Hi, I&apos;m Divyanshu Sahu, a passionate web developer with 1 year of experience in building innovative and effective digital solutions. Let&apos;s create something amazing together!
           </p>
         </div>
         <div>
