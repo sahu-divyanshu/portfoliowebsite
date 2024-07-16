@@ -1,0 +1,40 @@
+{
+    "projects": [
+      {
+        "id": 1,
+        "title": "FrontendStack",
+        "slug": "https://frontendstack.vercel.app/",
+        "url":"https://github.com/sahu-divyanshu/FrontendStack/tree/main",
+        "description": "ReactJs , TailwindCSS , JavaScript , Framer Motion ",
+ 
+        "image": "/projects/FrontendStack.png" 
+      },
+      {
+        "id": 2,
+        "title": "Portfolio Website",
+        "slug": "",
+        "url":"https://github.com/sahu-divyanshu/portfoliowebsite",
+        "description": "NextJs , Tailwind CSS , TypeScript ,Aceternity UI ",
+        "image": "/projects/Portfolio.png" 
+      },
+      {
+        "id": 3,
+        "title": "Blog Website",
+        "slug": "https://blog-two-theta-19.vercel.app/",
+        "url":"https://github.com/sahu-divyanshu/Blog",
+        "description": "ReactJs , Tailwind CSS , JavaScript , Appwrite Backend ",
+        "image": "/projects/Blog.png" 
+      },
+
+      {
+        "id": 4,
+        "title": "MyTube",
+        "slug": "/",
+        "url":"https://github.com/sahu-divyanshu/Backend",
+        "description": "JavaScript,ReactJs,Node.js,Express,MongoDB,Cloudinary ",
+
+        "image": "/projects/MyTube.png" 
+      }
+    ]
+  }
+  

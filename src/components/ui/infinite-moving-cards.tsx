@@ -2,6 +2,7 @@
 
 import { cn } from "@/utils/cn";
 import React, { useEffect, useState } from "react";
+import Link from "next/link";
 
 export const InfiniteMovingCards = ({
   items,
@@ -11,9 +12,10 @@ export const InfiniteMovingCards = ({
   className,
 }: {
   items: {
-    quote: string;
+    description: string;
     name: string;
-    title: string;
+    technologies: string;
+    slug: string;
   }[];
   direction?: "left" | "right";
   speed?: "fast" | "normal" | "slow";
@@ -86,8 +88,9 @@ export const InfiniteMovingCards = ({
         )}
       >
         {items.map((item, idx) => (
-          <li
-            className="w-[350px] max-w-full relative rounded-2xl border border-b-0 flex-shrink-0 border-slate-700 px-8 py-6 md:w-[450px]"
+          <Link className="" href={item.slug}>
+              <li
+            className="w-[350px] sm:h-80 h-[510px] max-w-full relative rounded-2xl border border-b-0 flex-shrink-0 border-slate-700 px-8 py-4 text-justify  md:w-[450px] "
             style={{
               background:
                 "linear-gradient(180deg, var(--slate-800), var(--slate-900)",
@@ -97,23 +100,27 @@ export const InfiniteMovingCards = ({
             <blockquote>
               <div
                 aria-hidden="true"
-                className="user-select-none -z-1 pointer-events-none absolute -left-0.5 -top-0.5 h-[calc(100%_+_4px)] w-[calc(100%_+_4px)]"
+                className="user-select-none -z-1 pointer-events-none absolute -left-0.5 -top-0.5 h-[calc(100%_+_4px)] w-[calc(100%_+_4px)] "
               ></div>
-              <span className=" relative z-20 text-sm leading-[1.6] text-gray-100 font-normal">
-                {item.quote}
-              </span>
-              <div className="relative z-20 mt-6 flex flex-row items-center">
-                <span className="flex flex-col gap-1">
-                  <span className=" text-sm leading-[1.6] text-gray-400 font-normal">
+            
+                  <span className="flex flex-col gap-1 mb-2">
+                  <h1 className=" text-lg leading-[1.6] text-gray-200 font-normal">
                     {item.name}
-                  </span>
-                  <span className=" text-sm leading-[1.6] text-gray-400 font-normal">
-                    {item.title}
+                  </h1>
+
+                  <span className=" text-sm leading-[1.6] text-gray-200 font-normal">
+                    {item.technologies}
                   </span>
                 </span>
-              </div>
+              <span className=" relative z-20 text-sm leading-[1.6] text-gray-400 font-normal">
+                {item.description}
+              </span>
+
+   
             </blockquote>
           </li>
+          </Link>
+      
         ))}
       </ul>
     </div>

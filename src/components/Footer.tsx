@@ -1,5 +1,9 @@
 'use client'
 
+import Link from "next/link"
+
+
+
 export default function Footer() {
   return (
     <footer className='bg-black text-gray-400 py-12'>
@@ -7,80 +11,78 @@ export default function Footer() {
         <div>
           <h2 className="text-white text-lg font-semibold mb-4">About Us</h2>
           <p className="mb-4">
-            Music School is a premier institution dedicated to teaching the art
-            and science of music. We nurture talent from the ground up,
-            fostering a vibrant community of musicians.
+          Hi, I'm Divyanshu Sahu, a passionate web developer with 1 year of experience in building innovative and effective digital solutions. Let's create something amazing together!
           </p>
         </div>
         <div>
           <h2 className="text-white text-lg font-semibold mb-4">Quick Links</h2>
           <ul>
             <li>
-              <a
-                href="#"
+              <Link
+                href="/"
                 className="hover:text-white transition-colors duration-300"
               >
                 Home
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="#"
+              <Link
+                href=""
                 className="hover:text-white transition-colors duration-300"
               >
                 About
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="#"
+              <Link
+                href="/courses"
                 className="hover:text-white transition-colors duration-300"
               >
-                Courses
-              </a>
+                Projects
+              </Link>
             </li>
             <li>
-              <a
+              <Link
                 href="#"
                 className="hover:text-white transition-colors duration-300"
               >
                 Contact
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
         <div>
           <h2 className="text-white text-lg font-semibold mb-4">Follow Us</h2>
           <div className="flex flex-col">
-            <a
-              href="#"
+            <Link
+              href="https://www.linkedin.com/in/divyanshu-sahu-820467245/"
               className="hover:text-white transition-colors duration-300"
             >
-              Facebook
-            </a>
-            <a
-              href="#"
+              LinkedIn
+            </Link>
+            <Link
+              href="https://github.com/sahu-divyanshu"
               className="hover:text-white transition-colors duration-300"
             >
-              Twitter
-            </a>
-            <a
-              href="#"
+              Github
+            </Link>
+            <Link
+              href="https://www.instagram.com/divyanshu_sahu07/"
               className="hover:text-white transition-colors duration-300"
             >
               Instagram
-            </a>
+            </Link>
           </div>
         </div>
         <div>
           <h2 className="text-white text-lg font-semibold mb-4">Contact Us</h2>
-          <p>New Delhi, India</p>
-          <p>Delhi 10001</p>
-          <p>Email: info@musicschool.com</p>
-          <p>Phone: (123) 456-7890</p>
+          <p>Udaipur, Rajasthan, India</p>
+         
+          <p>Email:divyanshusahucoc@gmail.com</p>
+          <p>Phone: 6378526074 </p>
         </div>
         </div>
-        <p className="text-center text-xs pt-8">© 2024 Music School. All rights reserved.</p>
+        <p className="text-center text-xs pt-8">© 2024 Portfolio . All rights reserved.</p>
     </footer>
     
   
