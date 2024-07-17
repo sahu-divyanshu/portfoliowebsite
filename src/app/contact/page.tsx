@@ -57,7 +57,7 @@ function MusicSchoolContactUs() {
       <div className='flex flex-wrap mx-auto z-10 text-center justify-center'>
         <div className='basis-2/5 flex flex-col space-y-6 sm:justify-start justify-center text-center'> 
           <h1 className="md:mt-6 mt-4 sm:mx-24 text-lg mx-10">We can do so much together.</h1>
-          <p className='sm:mx-24 mx-10 text-lg'>Mail: <Link href="https://mail.google.com/mail/u/0/#sent?compose=DmwnWrRspgxldlqnFQBxpGTwWcCKDKmxxrJHldfFzHVLgKrGKgkKwSMxlBjbzVhKNBRhtHzCLZRl">divyanshusahucoc@gmail.com</Link> </p>
+          <p className='sm:mx-24 mx-10 text-lg'>Mail: <Link href="mailto:divyanshusahucoc@gmail.com">divyanshusahucoc@gmail.com</Link> </p>
           <p className='sm:mx-24 mx-10 text-lg'>Call: 6378526074</p>
           <p className='sm:mx-24 mx-10 text-lg'>Connect with me:</p>
         <div className="md:mt-6 mt-4 ml-5 justify-center flex flex-wrap space-x-4">
