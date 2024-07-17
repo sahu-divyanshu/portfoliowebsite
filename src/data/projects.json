@@ -31,7 +31,7 @@
         "title": "MyTube",
         "slug": "/",
         "url":"https://github.com/sahu-divyanshu/Backend",
-        "description": "JavaScript,ReactJs,Node.js,Express,MongoDB,Cloudinary ",
+        "description": "JavaScript, ReactJs, Node.js, Express, MongoDB, Cloudinary ",
 
         "image": "/projects/MyTube.png" 
       }

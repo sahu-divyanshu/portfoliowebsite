@@ -10,7 +10,7 @@ import github from "../utils/github.svg"
 
 export default function HeroSection() {
   return (
-    <div className='h-auto md:h-[40rem] w-full rounded-md dark:bg-black flex flex-col items-center justify-center relative overflow-hidden mx-auto py-10 md:py-0'>
+    <div className='h-auto md:h-[40rem] w-full rounded-md bg-black flex flex-col items-center justify-center relative overflow-hidden mx-auto py-10 md:py-0'>
        <Spotlight
         className="top-0 left-0 md:left-60 md:-top-44 fixed"
         fill="grey"
@@ -28,14 +28,14 @@ export default function HeroSection() {
         <p className='md:mt-4 font-normal text-base md:text-lg text-neutral-300 max-w-lg mx-auto'>a passionate web developer with 1 year of experience, I&apos;ve developed a strong expertise in JavaSctipt and MERN Stack and a keen eye for design.</p>
         <div className="md:mt-6 mt-4 justify-center flex flex-wrap space-x-4">
             <Link href={'https://www.linkedin.com/in/divyanshu-sahu-820467245/'}>
-                <Button borderRadius='1.75rem' className="bg-white dark:bg-gray-950 text-black  dark:text-white border-neutral-200 dark:border-slate-900 flex justify-evenly">
+                <Button borderRadius='1.75rem' className="bg-gray-950 text-white border-slate-900 flex justify-evenly">
                   <span className="text-lg ">LinkedIn </span>
                   <Image className="h-7 w-7  text-white" src={linkedin} alt=" "/>
 
                 </Button>
             </Link>
             <Link href={'https://github.com/sahu-divyanshu'}>
-                <Button borderRadius='1.75rem' className="bg-white dark:bg-gray-950 text-black  dark:text-white border-neutral-200 dark:border-slate-900 flex justify-evenly">
+                <Button borderRadius='1.75rem' className="bg-gray-950 text-white border-slate-900 flex justify-evenly">
                   <span className="text-lg ml-2 ">Github </span>
                   <Image className="h-10 w-10   text-white" src={github} alt=" "/>
 

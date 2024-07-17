@@ -75,7 +75,7 @@ export default function Footer() {
           <p>Phone: 6378526074 </p>
         </div>
         </div>
-        <p className="text-center text-xs pt-8">© 2024 Portfolio . All rights reserved.</p>
+        <p className="text-center text-xs pt-8">© 2024 Portfolio of Divyanshu Sahu .</p>
     </footer>
     
   
