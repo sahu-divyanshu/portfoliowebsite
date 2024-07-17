@@ -39,7 +39,7 @@ export const MenuItem = ({
           transition={transition}
         >
           {active === item && children && (
-            <div className="absolute top-[calc(100%_+_1.7rem)] left-1/2 transform -translate-x-1/2">
+            <div className="absolute sm:top-[calc(100%_+_1rem)] top-[calc(100%_+_.5rem)]  left-1/2 transform -translate-x-1/2">
               <motion.div
                 transition={transition}
                 layoutId="active" // layoutId ensures smooth animation
@@ -47,7 +47,7 @@ export const MenuItem = ({
               >
                 <motion.div
                   layout // layout ensures smooth animation
-                  className="w-max h-full p-4"
+                  className="w-max h-full sm:p-4 p-2"
                 >
                   {children}
                 </motion.div>
@@ -70,7 +70,7 @@ export const Menu = ({
   return (
     <nav
       onMouseLeave={() => setActive(null)} // resets the state
-      className="relative rounded-full boder border bg-black border-white/[0.2]  shadow-input flex justify-center space-x-4 px-8 py-6 "
+      className="relative rounded-full boder border bg-black border-white/[0.2]  shadow-input flex justify-center space-x-4 px-8 py-4 "
     >
       {children}
     </nav>
