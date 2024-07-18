@@ -79,7 +79,7 @@ function MusicSchoolContactUs() {
           {' '}
           {/* Add relative and z-10 to bring content to the front */}
           <h1 className="text-lg md:text-4xl text-center font-sans font-bold mb-4 text-white">
-            Send us a message🚀
+            Send me a message🚀
           </h1>
           <p className="text-neutral-500 max-w-lg mx-auto my-2 text-sm text-center">
             I&apos;am here to help with any questions about myself ,
