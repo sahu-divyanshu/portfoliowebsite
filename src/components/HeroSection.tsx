@@ -25,7 +25,7 @@ export default function HeroSection() {
 
         <h1 className='text-2xl md:my-6 my-2'>Hi I&apos;m Divyanshu😎</h1>
         <h1 className=' md:my-6 my-2 text-3xl md:text-6xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400'> Webapps Developer</h1>
-        <p className='md:mt-4 font-normal text-base md:text-lg text-neutral-300 max-w-lg mx-auto'>a passionate web developer with 1 year of experience, I&apos;ve developed a strong expertise in JavaSctipt and MERN Stack and a keen eye for design.</p>
+        <p className='md:mt-4 font-normal text-base md:text-lg text-neutral-300 max-w-lg mx-auto'>i&apos;ve completed MERN Stack Specialised in React JS and Demonstrated discipline and consistency by successfully finishing 3 rounds of the 100 Days of Code challenge</p>
         <div className="md:mt-6 mt-4 justify-center flex flex-wrap space-x-4">
             <Link href={'https://www.linkedin.com/in/divyanshu-sahu-820467245/'}>
                 <Button borderRadius='1.75rem' className="bg-gray-950 text-white border-slate-900 flex justify-evenly">
